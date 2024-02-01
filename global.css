@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.9)),
+    url(images/background.png);
+  font-family: "Poppins", sans-serif;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.top-header {
+  width: 86%;
+  max-width: 1240px;
+  margin: 0px auto 0;
+}
+
+.logo {
+  width: 180px;
+  padding: 20px 0;
+}
+
+.logo img {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.content {
+  width: 86%;
+  max-width: 1240px;
+  margin: 12% auto 0;
+  color: #fff;
+}
+
+.content button {
+  background-color: burlywood;
+  width: 150px;
+  font-size: 18px;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.content h1 {
+  font-size: 55px;
+}
+
+.content h1 span {
+  color: coral;
+}
+
+.content p {
+  font-size: 19px;
+}
+
+.luach-time {
+  display: flex;
+}
+
+.luach-time div {
+  flex-basis: 150px;
+}
+
+.luach-time div p {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.rocket {
+  position: absolute;
+  right: 100px;
+  bottom: 800px;
+  animation: rocket 3s linear infinite;
+}
+
+@keyframes rocket {
+  0% {
+    bottom: 0;
+    opacity: 0;
+  }
+  100% {
+    bottom: 105%;
+    opacity: 1;
+  }
+}
+
+.rocket img {
+  width: 250px;
+}
